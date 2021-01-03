@@ -1,0 +1,22 @@
+{
+  "name": "presentation-react-js-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyushkin93/presentation-react-js-framework.git"
+  },
+  "author": "Dmitriy Yushkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyushkin93/presentation-react-js-framework/issues"
+  },
+  "homepage": "https://github.com/dyushkin93/presentation-react-js-framework#readme",
+  "dependencies": {
+    "reveal.js": "^4.1.0"
+  }
+}

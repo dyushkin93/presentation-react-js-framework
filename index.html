@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React JS Presentation</title>
+  <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css"></link>
+  <link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/vs2015.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class="slide-1">
+        <div class="slide-1">
+          <img class="react-logo" src="./assets/images/react-logo.svg" alt="react-logo">
+          <div class="header-wrapper">
+            <h1>react</h1>
+            <p class="sub-header">JavaScript library</p>
+          </div>
+        </div>
+      </section>
+      <section class="slide-2">
+        <h3>basic facts</h3>
+        <ul>
+          <li>JavaScript library for UI development</li>
+          <li>created in 2011 by Facebook community</li>
+          <li>became open-sourse in 2013</li>
+        </ul>
+      </section>
+      <section class="slide-3">
+        <h3>Core features of React</h3>
+        <div class="features-grid">
+          <img class="features-react-logo" src="./assets/images/react-logo.svg" alt="react-logo">
+          <div class="react-feature">
+            <h5>Component</h5>
+            <p>individual UI piece</p>
+          </div>
+          <div class="react-feature">
+            <h5>Unidirectional Data Flow</h5>
+            <p>Flux data architecture</p>
+          </div>
+          <div class="react-feature">
+            <h5>Virtual DOM</h5>
+            <p>memory of ReactDOM library</p>
+          </div>
+          <div class="react-feature">
+            <h5>JSX</h5>
+            <p>XML in JS</p>
+          </div>
+        </div>
+      </section>
+      <section class="slide-4">
+        <section class="slide-4-1">
+          <div class="r-stack">
+            <img class="fragment" src="./assets/images/page-sample.png" alt="page-sample">
+            <img class="fragment fade-in" src="./assets/images/page-sample-components.png" alt="page-sample-components">
+          </div>
+        </section>
+        <p></p>
+        <section class="slide-4-2">
+          <div class="r-stack">
+            <div class="fragment fade-in-then-out">
+              <h5>Component as a function</h5>
+              <pre><code class="language-javascript" data-trim data-noescape>
+              function Welcome(props) {
+                return &lt;h1&gt;Hello, {props.name}&lt;/h1&gt;
+              }              
+            </code></pre>
+            </div>
+            <div class="fragment fade-in-then-out">
+              <h5>Component as a class</h5>
+              <pre><code class="language-javascript" data-trim data-noescape>
+                class Welcome extends React.Component {
+                  render() {
+                    return &lt;h1&gt;Hello, {this.props.name}!&lt;/h1&gt;
+                  }                            
+              </code></pre>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+  <script src="/node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="/node_modules/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealHighlight ]
+    });
+  </script>
+  
+</body>
+</html>
