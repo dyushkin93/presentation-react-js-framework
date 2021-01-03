@@ -1,4 +1,4 @@
-.slide-1 {
+.slide-1-block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,4 +65,21 @@
 
 pre {
   width: 100% !important;
+}
+
+.slide-6-2-block {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.slide-6-2-block .real-DOM-scheme.fade-out.current-fragment {
+  opacity: .5 !important;
+  visibility: visible !important;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
