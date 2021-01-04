@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="5.1467in" height="5.20706in" viewBox="0 0 251.772 254.432" color-interpolation-filters="sRGB" class="st6" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	
+		.st1 {fill:#a7b8b5;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;font-family:Calibri;font-size:2.50001em}
+		.st3 {fill:#cfc5bc;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#61dbfb;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	
+	</style>
+  <g transform="matrix(1, 0, 0, 1, -59.816784, -58.553047)">
+    <title>Страница-1</title>
+    <g id="group1-1" transform="translate(310.714,-63.649) scale(-1,1)">
+      <title>Кольцевые стрелки</title>
+      <g id="shape2-2" transform="translate(158.97,-171.752) rotate(20)">
+        <title>Лист.2</title>
+      </g>
+      <g id="shape3-4" transform="translate(86.3779,-44.2044) rotate(20)">
+        <title>Лист.3</title>
+      </g>
+      <g id="shape4-6" transform="translate(151.841,5.88413) rotate(20)">
+        <title>Лист.4</title>
+      </g>
+      <g id="shape5-8" transform="translate(266.108,-35.2303) rotate(20)">
+        <title>Лист.5</title>
+      </g>
+      <g id="shape6-10" transform="translate(86.9945,-45.6553) rotate(20)">
+        <title>Лист.6</title>
+      </g>
+      <g id="shape7-12" transform="translate(269.733,48.2564) rotate(50)">
+        <title>Лист.7</title>
+      </g>
+      <g id="shape8-14" transform="translate(-6.98057,39.8693) rotate(-19.3)">
+        <title>Лист.8</title>
+      </g>
+      <g id="shape9-16" transform="translate(127.335,-69.5165) rotate(-6)">
+        <title>Лист.9</title>
+      </g>
+      <g id="shape10-18" transform="translate(166.819,-184.859) rotate(20)">
+        <title>Лист.10</title>
+      </g>
+      <g id="shape11-20" transform="translate(1.255E-12,-33.2782)">
+        <title>Лист.11</title>
+        <desc>State</desc>
+        <path d="M27.83 348.88 L0 364.67 L43.96 370.82 L73.17 374.91 L86.73 340.36 L99.3 308.35 L73.08 323.22 A65.3297 63.9965 0 0 1 65.33 292.99 A65.3297 63.9965 0 0 1 102.52 235.24 L83.62 213.64 L112.39 179.2 A117.594 115.194 -180 0 0 13.07 292.99 A117.594 115.194 -180 0 0 27.83 348.88 Z" class="st1"/>
+        <text x="161.28" y="186.87" transform="rotate(-59) scale(-1,1)" class="st2" style="white-space: pre;">State</text>
+      </g>
+      <g id="shape12-23" transform="translate(43.965,0)">
+        <title>Лист.12</title>
+        <desc>View</desc>
+        <path d="M187.16 319.58 L206.9 331.39 L195.71 302.9 L180.77 264.83 L151.29 269.28 L112.83 275.07 L142.57 292.88 A65.3297 63.9965 0 0 1 42.77 307.08 L29.2 341.63 L0 337.54 A117.594 115.194 -180 0 0 187.16 319.58 Z" class="st3"/>
+        <text x="-123.07" y="358.82" transform="scale(-1,1)" class="st2" style="white-space: pre;">View</text>
+      </g>
+      <g id="shape13-26" transform="translate(83.622,-72.0124)">
+        <title>Лист.13</title>
+        <desc>Actions</desc>
+        <path d="M47.04 216.53 L47.04 196.05 L28.76 217.93 L0 252.37 L18.9 273.97 L47.04 306.13 L47.04 267.73 A65.3297 63.9965 0 0 1 112.37 331.73 A65.3297 63.9965 0 0 1 111.63 341.29 L141.11 336.85 L156.06 374.91 A117.594 115.194 -180 0 0 164.63 331.73 A117.594 115.194 -180 0 0 47.04 216.53 Z" class="st4"/>
+        <text x="-307.03" y="139.82" transform="rotate(41) scale(-1,1)" class="st2" style="white-space: pre;">Actions</text>
+      </g>
+      <g id="shape14-29">
+        <title>Лист.14</title>
+        <rect x="0" y="124.042" width="250.866" height="250.866" class="st5"/>
+      </g>
+    </g>
+  </g>
+</svg>

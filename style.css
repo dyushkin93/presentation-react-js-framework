@@ -78,8 +78,23 @@ pre {
   visibility: visible !important;
 }
 
-.clock {
+.slide-7-block {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-7-block img {
+  width: 350px;
+}
+
+.react-using-projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.react-using-projects > img {
+  height: 100px;
 }

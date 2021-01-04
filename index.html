@@ -61,7 +61,7 @@
         <p></p>
         <section class="slide-4-2">
           <div class="r-stack">
-            <div class="fragment fade-in-then-out">
+            <div class="fragment fade-out" data-fragment-index="0">
               <h5>Component as a function</h5>
               <pre><code class="language-javascript" data-trim data-noescape>
               function Welcome(props) {
@@ -69,7 +69,7 @@
               }              
               </code></pre>
             </div>
-            <div class="fragment fade-in-then-out">
+            <div class="fragment" data-fragment-index="0">
               <h5>Component as a class</h5>
               <pre><code class="language-javascript" data-trim data-noescape>
                 class Welcome extends React.Component {
@@ -92,13 +92,13 @@
         </section>
         <section class="slide-5-2">
           <div class="r-stack">
-            <div class="fragment fade-in-then-out">
+            <div class="fragment fade-out" data-fragment-index="0">
               <h5>simple element</h5>
               <pre><code class="language-javascript" data-trim data-noescape>
                 const element = &lt;h1&gt;Hello world!&lt;/h1&gt;;              
               </code></pre>
             </div>
-            <div class="fragment fade-in-then-out">
+            <div class="fragment fade-in-then-out" data-fragment-index="0">
               <h5>block of HTML</h5>
               <pre><code class="language-javascript" data-trim data-noescape>
                 const element = (
@@ -109,7 +109,7 @@
                 );                          
               </code></pre>
             </div>
-            <div class="fragment fade-in-then-out">
+            <div class="fragment fade-in">
               <h5>expressions in JSX</h5>
               <pre><code class="language-javascript" data-trim data-noescape>
                 const name = "John";
@@ -165,12 +165,42 @@
       </section>
       <section class="slide-7">
         <h2>Unidirectional data flow</h2>
+        <div class="slide-7-block">
+          <ul>
+            <li>state is passed to the view and to child components</li>
+            <li>actions are triggered by the view</li>
+            <li>actions can update the state</li>
+            <li>the state change is passed to the view and to child components</li>
+          </ul>
+          <img src="./assets/images/data-flow.svg" alt="data-flow">
+        </div>
+      </section>
+      <section class="slide-8">
+        <h2>Pros of using react</h2>
         <ul>
-          <li>state is passed to the view and to child components</li>
-          <li>actions are triggered by the view</li>
-          <li>actions can update the state</li>
-          <li>the state change is passed to the view and to child components</li>
+          <li>fast learning curve </li>
+          <li>components based structure </li>
+          <li>fast render with Virtual DOM </li>
+          <li>rich community support </li>
         </ul>
+        <div class="react-using-projects">
+          <img src="./assets/images/airbnb-logo-2020.svg" alt="logo" class="fragment" data-autoslide="300">
+          <img src="./assets/images/dropbox_Icon.svg" alt="logo" class="fragment" data-autoslide="300">
+          <img src="./assets/images/facebook_F_icon.svg" alt="logo" class="fragment" data-autoslide="300">
+          <img src="./assets/images/netflix_icon.svg" alt="logo" class="fragment" data-autoslide="300">
+          <img src="./assets/images/GitHub-Mark-Light-120px-plus.png" alt="logo" class="fragment">
+        </div>
+      </section>
+      <section class="slide-9">
+        <h2>React Usage</h2>
+        <div class="r-stack">
+          <img class="fragment fade-out" data-fragment-index="0" src="./assets/images/frameworks-usage.png" alt="framework-usage">
+          <img class="fragment" data-fragment-index="0" src="./assets/images/react_experience.png" alt="react-expierence">
+        </div>
+      </section>
+      <section class="slide-10">
+        <p>Thank you for your attention!</p>
+        <p>And Happy New Year :)</p>
       </section>
     </div>
   </div>
